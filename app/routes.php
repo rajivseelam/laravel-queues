@@ -26,3 +26,8 @@ Route::resource('job','JobController');
 
 Route::resource('photo','PhotoController');
 
+
+Route::get('iron/create','IronController@create'); //Create a Queue and add subscribers
+Route::get('iron/push','IronController@push'); //Push a message to Queue
+Route::get('iron/status/{id}','IronController@status'); //Know the status of the message we pushed
+Route::post('iron/receive','IronController@receive'); //Receive the message and process it

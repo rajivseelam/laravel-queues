@@ -52,8 +52,8 @@ return array(
 		'iron' => array(
 			'driver'  => 'iron',
 			'host'    => 'mq-aws-us-east-1.iron.io',
-			'token'   => 'token',
-			'project' => 'project_id',
+			'token'   => 'XXXXXXXXXXXXXX',
+			'project' => 'XXXXXXXXXXXXXX',
 			'queue'   => 'laravel',
 		),
 
